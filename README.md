@@ -27,3 +27,4 @@ and program arguments to `-pluginpath target/mxdrone-0.0.1.jar`
 : you can now debug DronePlugin.java
 
 
+s
