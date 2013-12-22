@@ -5,6 +5,8 @@ import java.beans.PropertyChangeEvent;
 import javax.swing.JPanel;
 import javax.swing.SwingWorker;
 
+import mx.drone.ui.buttons.RecordButton;
+
 import com.sun.tools.jconsole.JConsoleContext;
 
 public class GUI {
@@ -13,8 +15,14 @@ public class GUI {
 	
 	static JPanel build(JConsoleContext ctx) {
 		GUI.ctx = ctx;
+
+		//
 		
-		return new JPanel();
+		JPanel pluginPanel = new JPanel();
+		
+		pluginPanel.add(new RecordButton());
+		
+		return pluginPanel;
 	}
 	
 	static void onPropertyChange(PropertyChangeEvent ev) {

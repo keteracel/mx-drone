@@ -8,8 +8,6 @@ import java.util.Map;
 import javax.swing.JPanel;
 import javax.swing.SwingWorker;
 
-import com.sun.tools.jconsole.JConsoleContext;
-import com.sun.tools.jconsole.JConsoleContext.ConnectionState;
 import com.sun.tools.jconsole.JConsolePlugin;
 
 
